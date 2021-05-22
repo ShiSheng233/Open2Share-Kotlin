@@ -1,15 +1,20 @@
-## open2share
+## Open2Share Kotlin
 
-**这是一款可以将打开文件(open, ACTION_VIEW)转换为分享文件(share, ACTION_SEND)的Android小工具。**
+> **这是一款可以将打开文件(open, ACTION_VIEW)转换为分享文件(share, ACTION_SEND)的Android小工具。**
+>
+> **An Android app that can convert open(ACTION_VIEW) files to share(ACTION_SEND) files.**
+>
+> 用于解决某些App因为一己之私而不提供分享文件功能导致的各种不便（如某讯的两大社交App）。
+>
+>
+> _以上摘自原Repo的README_
 
-**An Android app that can convert open(ACTION_VIEW) files to share(ACTION_SEND) files.**
+本项目是受到原项目的启发，为了练习Kotlin，由ShiSheng制作的重制版
 
-用于解决某些App因为一己之私而不提供分享文件功能导致的各种不便（如某讯的两大社交App）。
+功能较原版缺失了从启动器隐藏图标的功能，其余完全一致
 
-## 公告
+~~我真的不会了~~
 
-目前微信的文档类文件已经支持直接分享，但是其他类型还不支持，并且，目前发现至少还有QQ和百度网盘等应用依然不支持分享，所以本软件依然有其存在的价值。
-希望部分开发者可以重视用户体验，完善分享功能，希望有一天可以不再需要本软件。
 
 ## 使用方法/Usage
 
@@ -17,6 +22,12 @@
 
 Select "Convert to share" when opening the file, and then share it.
 
-------
+---
 
-双霖作品
+原始项目由双霖制作
+
+Kotlin重制版由ShiSheng制作
+
+在此向双霖表示感谢
+
+Powered by ShiSheng with Love
