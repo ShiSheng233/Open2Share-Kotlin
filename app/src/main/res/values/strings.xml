@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Open2Share Kotlin</string>
+    <string name="convert_text">转换为分享文件</string>
+
+    <string name="guide">使用说明</string>
+    <string name="hide">隐藏桌面图标</string>
+    <string name="about">关于</string>
+    <string name="about_title">关于\"Open2Share Kotlin\"</string>
+    <string name="help">帮助</string>
+    <string name="share_title">分享文件</string>
+
+    <string name="about_dial_tit">关于本软件</string>
+    <string name="about_dial_msg">本项目是受到双霖项目的启发，为了练习Kotlin，由莳昇制作的重制版\n\n非常建议使用原版\n\nPowered by ShiSheng with Love</string>
+    <string name="ok">确定</string>
+    <string name="website">个人网站</string>
+</resources>
