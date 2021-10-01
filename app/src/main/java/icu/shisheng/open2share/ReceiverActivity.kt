@@ -16,12 +16,12 @@ class ReceiverActivity : AppCompatActivity() {
         sendIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         sendIntent.addCategory("android.intent.category.DEFAULT")
 
-        Log.d("Share","Data:"+ getIntent().getData().toString());
-        Log.d("Share","Type:"+ getIntent().getType());
+        Log.d("Share","Data:"+ intent.data.toString());
+        Log.d("Share","Type:"+ intent.type);
 
         sendIntent.putExtra(Intent.EXTRA_STREAM, intent.data)
         sendIntent.type = intent.type
-        startActivityForResult(Intent.createChooser(sendIntent, getString(R.string.share_title)), 1)
+        this.startActivityForResult(Intent.createChooser(sendIntent, getString(R.string.share_title)), 1)
     }
     override fun onDestroy() {
         super.onDestroy()
