@@ -17,6 +17,7 @@ class ReceiverActivity : AppCompatActivity() {
         sendIntent.addCategory("android.intent.category.DEFAULT")
 
         Log.d("Share","Data:"+ intent.data.toString());
+        //Log.d
         Log.d("Share","Type:"+ intent.type);
 
         sendIntent.putExtra(Intent.EXTRA_STREAM, intent.data)
